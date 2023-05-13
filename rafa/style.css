@@ -1,0 +1,264 @@
+* {
+    font-family: "Inter", sans-serif;
+    
+    
+
+}
+
+header {
+    width: auto;
+    margin: 10px 50px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background: #E5E5E5;
+    
+}
+
+.titulo {
+    font-size: 38px;
+    text-align: center;
+    background: #0A3871;
+    padding: 10px;
+    width: 350px;
+    color: #D8DFE8;
+    border-radius: 24px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+main {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    width: 90%;
+    height: 70%;
+    font-size: 28px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #e0dede;    
+    box-shadow:10px 5px 10px grey;
+}
+
+.mensaje-box {
+    background: #fff;
+    position:static;
+    margin: 20px 0px 0 20px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px #ffffff;
+    font-size: 30px;
+    
+}
+
+.ningunMensaje {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.mensaje {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;        
+    background-repeat: no-repeat;
+    background-position: 28px;
+    background-size: 300px;
+    border-width: 0;
+    border-radius: 24px;
+    margin: 10px 10px;
+    height: 90px;
+    display: block;
+    color: #0A3871;
+    box-shadow: 5px 5px 20px  rgb(218, 218, 218);
+}
+
+
+.botones {
+    margin: 0 20px;
+}
+.pegar {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: #fff;
+    color: #0A3871;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 10px 0;
+    border-width: 1px;
+    border-color: #1269d3;
+   
+}
+
+.pegar:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.copiar {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    background-color: #fff;
+    color: #0A3871;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 24px;
+    border-width: 1px;
+    border-color: #1269d3;
+    
+}
+
+.copiar:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.botones {
+    margin-top: 20px;
+       
+}
+
+.encriptar {
+    background-color: #0A3871;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-width: 1px;
+    
+}
+
+
+.encriptar:hover {
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #1269d3;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-width: 1px;
+   
+}
+
+.desencriptar:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.informacion {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+footer{
+    background: #313131;
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+
+}
+
+.Rafa {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #D8DFE8;
+    background:#313131;
+    border-width: 0;
+    
+}
+
+
+.neon {
+    position: relative;
+    overflow: hidden;
+    filter: brightness(70%);
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 180px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    user-select: none;
+}
+
+.text::before {
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    filter: blur(0.02em);
+    mix-blend-mode: difference;
+}
+
+.gradient {
+    position: absolute;
+    background: linear-gradient(45deg, red, gold, lightgreen, gold, red);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+.spotlight {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(
+            circle,
+            white,
+            transparent 25%
+        ) center / 25% 25%,
+        radial-gradient(
+            circle,
+            white,
+            black 25%
+        ) center / 12.5% 12.5%;
+    animation: light 5s linear infinite;
+    mix-blend-mode: color-dodge;
+}
+
+@keyframes light {
+    to {
+        transform: translate(50%, 50%);
+    }
+}
+
+
+

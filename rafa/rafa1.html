@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="logo" type="logoAlura" href="Logo.png">
+        <title>Encriptador</title>
+    </head>
+   
+    <body>
+        <header>
+            <img src="Logo.png" alt="logoAlura" id="logo" >
+        </header>
+        
+        <main>
+            <section>                
+                <textarea id="cajaTexto" class="input-texto" cols="40" rows="8" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <p class="informacion"><img src="mation-circle-fill-1.png" alt="exclamacion">Solo letras minusculas y sin acentos.</p>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Encriptar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Desencriptar
+                    </button>
+                </div>
+            </section>        
+
+            <section class="">
+                <img src="Muñeco.png" alt="no hay mensaje" class="ningunMensaje">
+                <textarea class="mensaje">Ningun mensaje fue encontrado</textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>        
+        </main>
+    </body>
+        
+    <footer>
+        
+        <img src="icons8-github.gif">
+        <div class="neon">
+            <span class="texto" data-=texto"Rafa"> Rafael Garcia Arellano <link rel="stylesheet" href="https://www.linkedin.com/in/rafa-garcia-54a181177/"></span>
+            <span class="gradient"></span>
+            <span class="spotlight"></span>
+        </div>         
+        
+    </footer>
+    
+    <script src="script.js"></script>
+</html>
